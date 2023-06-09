@@ -144,14 +144,14 @@ button:hover {
  }
 
  @media only screen and (max-width:800px) {
-  .banner, .choice, .button {
+  .banner, .choice, .button, .logo, .footer, .step, .step.active, .step.finish {
     width: 80%;
     padding: 0;
   }
 
 }
 @media only screen and (max-width:500px) {
-  .menu, .main, .right {
+  .banner, .choice, .button, .logo, .footer, .step, .step.active, .step.finish {
     width: 100%;
   }
 }
