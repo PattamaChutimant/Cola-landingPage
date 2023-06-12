@@ -17,24 +17,24 @@
             
         <img src="image/colachoicedarkgreen.png" class="choice">
 
-        <h1>Order request form</h1>
+        <h1>Order form</h1>
        <form id="regForm" action="/action_page.php">
            
             <div class="tab">
-                <p>You have only three steps away, please fill-out your information.</p>
+                <p>You have only 1-2-3 steps away.</p>
                 <p><input placeholder="Company name" oninput="this.className = ''" name="name"></p>
             
                 <p><input placeholder="Company email" oninput="this.className = ''" name="email"></p>
 
             </div>
             <div class="tab">
-                <p>You're doing fine at this moment.</p>
+                <p>Fine! you're at step 2 now.</p>
                 <p><input placeholder="Company address" oninput="this.className = ''" name="address"></p>
                 <p><input placeholder="Company phone" oninput="this.className = ''" name="phone"></p>
             </div>
 
             <div class="tab">
-                <p>You're nearly done!</p>
+                <p>Congrats. This is the last step!</p>
                 <p><input placeholder="Contact name" oninput="this.className = ''" name="name"></p>
 
                 <p><input placeholder="Website" oninput="this.className = ''" name="url"></p>
@@ -42,15 +42,9 @@
                 <p><input placeholder="Delivery country" oninput="this.className = ''" name="country"></p>
             </div>
 
-            <div class="tab">
-                <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
-
-                <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
-            </div>
-
             <div style="overflow:auto;">
              <div style="float:right;">
-              <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+              <button type="button" id="prevBtn" onclick="nextPrev(-1)">Back</button>
               <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
             </div>
 
